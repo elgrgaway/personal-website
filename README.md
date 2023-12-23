@@ -9,11 +9,13 @@ This is a personal website project that showcases your skills, projects, and inf
 - Responsive design with a focus on mobile-first approach.
 - Utilizes CSS Grid and Flexbox for layout and positioning.
 - Styled using Sass for better maintainability and organization.
-## Preview
-
-![Website Preview](https://capturefullpage.com/uploads/6586af147c63e-converted/page_250.jpg)
 
 ## Getting Started
+
+### Technologes
+- HTML
+- CSS
+- SASS
 
 ### Prerequisites
 
