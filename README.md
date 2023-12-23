@@ -11,7 +11,7 @@ This is a personal website project that showcases your skills, projects, and inf
 - Styled using Sass for better maintainability and organization.
 ## Preview
 
-![Website Preview](/images/website-preview.png)
+![Website Preview](https://capturefullpage.com/uploads/6586af147c63e-converted/page_250.jpg)
 
 ## Getting Started
 
