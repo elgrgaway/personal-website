@@ -1,0 +1,25 @@
+.projects {
+  align-items: center;
+  column-gap: 11rem;
+}
+.projects__img {
+  max-width: 100%;
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.2);
+}
+.projects__title {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-semi-bold);
+}
+.projects__about {
+  font-size: var(--font-size-20);
+  margin-top: 2rem;
+}
+.projects__link:link,
+.projects__link:visited {
+  color: var(--color-blue);
+  font-size: var(--font-size-18);
+  margin-top: 3rem;
+}
+.projects__link:hover {
+  font-weight: var(--font-weight-bold);
+}

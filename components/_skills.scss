@@ -1,0 +1,17 @@
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-items: center; */
+  row-gap: 10rem;
+  column-gap: 8rem;
+}
+.skills__name {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-medium);
+  margin-right: 7.4rem;
+  transition: text-shadow var(--transition-timing);
+  user-select: none;
+}
+.skills__name:hover {
+  text-shadow: 0 0 2px var(--color-black);
+}

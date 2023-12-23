@@ -1,0 +1,89 @@
+@media (max-width: 1000px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    row-gap: 8rem;
+  }
+  .bio {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 5rem;
+  }
+  .bio__pic-content {
+    grid-row: 1;
+    justify-self: center;
+  }
+  .skills__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+  .projects__img {
+    justify-self: center;
+  }
+
+  .quotes__container {
+    font-size: var(--font-size-24);
+  }
+  .contact {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+  .contact div:nth-of-type(2) {
+    grid-row: 1;
+  }
+}
+@media (max-width: 500px) {
+  .humburger__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-self: center;
+  }
+  .humburger__menu__bar {
+    width: 4.375rem;
+    height: 0.3rem;
+    background-color: var(--color-text);
+    transition: var(--transition-timing);
+  }
+  html:has(.checkbox-humburger:checked) .humburger__menu__bar:nth-child(1) {
+    transform: translateY(10px) rotate(40deg);
+  }
+  html:has(.checkbox-humburger:checked) .humburger__menu__bar:nth-child(2) {
+    opacity: 0;
+    visibility: hidden;
+  }
+  html:has(.checkbox-humburger:checked) .humburger__menu__bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-40deg);
+  }
+  .header {
+    padding: 0;
+  }
+  .toggle {
+    padding: 3rem 0;
+  }
+
+  .navigation {
+    position: absolute;
+    width: 100dvw;
+    top: 0;
+    padding: 3rem 0;
+    z-index: -1;
+    border-bottom: var(--color-text) 0.1rem solid;
+    transition: var(--transition-timing);
+  }
+  .navigation__list {
+    justify-content: center;
+  }
+
+  html:has(.checkbox-humburger:checked) .navigation {
+    top: 100%;
+    background-color: var(--color-background);
+    padding: 3rem 0;
+  }
+}

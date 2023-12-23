@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/3bd3133027.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Ahmed Elgrgawy</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="background-video" autoplay loop muted>
+        <source src="video-loop.mp4" />
+      </video>
+
+      <header class="header">
+        <label for="checkbox-humburger" class="humburger__menu">
+          <div class="humburger__menu__bar"></div>
+          <div class="humburger__menu__bar"></div>
+          <div class="humburger__menu__bar"></div>
+        </label>
+        <input
+          id="checkbox-humburger"
+          class="checkbox-humburger"
+          type="checkbox"
+          name="hamburger"
+        />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio"> Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills">
+                Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects">
+                Projects</a
+              >
+            </li>
+            <li>
+              <a href="#quotes" class="navigation__link navigation__quotes">
+                Quotes</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact">
+                Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch theme</h3>
+          <input
+            type="checkbox"
+            name="checkbox toggle"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Ahmed Elgrgawy</span>, a CS
+            student, explores tech trends with passion and curiosity
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="Resume-Ahmed-Elgrgaway.pdf" class="bio__links find-out-link">
+            Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img class="bio__pic" src="images/me1.png" alt="my personal photo" />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section-with-bg">
+        <h2 class="h2-heading">SKILLS</h2>
+        <div class="skills__container">
+          <ul class="skills__list">
+            <li>
+              <h3 class="skills__name">HTML</h3>
+            </li>
+            <li>
+              <h3 class="skills__name">CSS</h3>
+            </li>
+            <li>
+              <h3 class="skills__name">SASS</h3>
+            </li>
+            <!-- <li>
+              <h3 class="skills__name">JAVASCRIPT</h3>
+            </li>
+            <li>
+              <h3 class="skills__name">REACT</h3>
+            </li>
+            <li>
+              <h3 class="skills__name">REDUX</h3>
+            </li>
+            <li>
+              <h3 class="skills__name">BOOTSTRAP</h3>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <img
+          src="images/desktop-preview.jpg"
+          alt="chat app picture"
+          class="projects__img"
+        />
+        <div class="projects__content">
+          <h3 class="projects__title">Chat App Design</h3>
+          <p class="projects__about">
+            Engineered a visually engaging chat app illustration using HTML and
+            CSS, combining precision, style, and creativity.
+          </p>
+          <a
+            class="projects__link"
+            target="_blank"
+            href=" https://elgrgaway.github.io/chat-app/"
+            >link</a
+          >
+        </div>
+      </section>
+
+      <section id="quotes" class="quotes section section-with-bg">
+        <h2 class="h2-heading">Quotes i <br />like</h2>
+        <div class="quotes__container">
+          <div class="quotes__wrapper">
+            <p class="quotes__text">
+              The acts most pleasing to God are those which are done most
+              continuously, even if they amount to little.
+            </p>
+            <p class="quotes__text">Tomorrow will never come.</p>
+            <p class="quotes__text">
+              Be yourself; everyone else is already taken.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__describtion">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a class="contact__mail" href="mailto:elgrgaway@gmail.com"
+            >elgrgaway@gmail.com</a
+          >
+          <div class="contact__icons">
+            <i class="fab fa-twitter contact__icon"></i>
+            <!-- Twitter icon -->
+            <i class="fab fa-linkedin contact__icon"></i>
+            <!-- LinkedIn icon -->
+            <i class="fab fa-github contact__icon"></i>
+            <!-- Twitter icon -->
+            <!-- LinkedIn icon -->
+            <!-- GitHub icon -->
+
+            <!-- <img
+              src="images/twitter.svg"
+              alt="pic of twitter"
+              class="contact__icon"
+            />
+            <img
+              src="images/LinkedIn.svg"
+              alt="pic of linked in"
+              class="contact__icon"
+            />
+            <img
+              src="images/github.svg"
+              alt="pic of github"
+              class="contact__icon"
+            /> -->
+          </div>
+        </div>
+        <div>
+          <h2 class="h2-heading">
+            LET’S WORK <br />
+            TOGETHER!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                name="fullName"
+                class="contact__input"
+                required
+                placeholder="Full name"
+              />
+              <input
+                type="tel"
+                name="telephone"
+                class="contact__input"
+                required
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <textarea
+              name="message"
+              id="describtion"
+              rows="1"
+              class="contact__input contact__textarea"
+              required
+              placeholder="Your message"
+            ></textarea>
+            <button class="contact__button" type="submit">Send Message</button>
+            <!-- <input class="contact__button" type="submit" value="Send Message" /> -->
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&copy; 2024 by Ahmed Elgrgawy</footer>
+    </div>
+  </body>
+</html>
